@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About me</title>
+
+<style type="text/css">
+body {
+	background-color: #E3DBD8;
+}
+
+section {
+	width: 1280px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: #A6A29E;
+	border-radius: 25px;
+	padding: 25px 0px;
+}
+
+nav {
+	width: 1280px;
+	margin: 3px auto;
+	padding: 25px 20px;
+	text-align: right;
+}
+
+footer {
+	width: 1280px;
+	margin: 10px auto;
+	background-color: #A6A29E;
+	border-radius: 25px;
+	padding: 10px 0px;
+	background-color: #A6A29E;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+}
+
+button {
+	height: 30px;
+	border: 2px solid #A6A29E;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 3px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.boxbtn {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #7E4D4E;
+	display: inline-block;
+	margin: 10px;
+	color: #A6A29E;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.square {
+	box-shadow: 5px 5px 5px grey;
+}
+
+#picture {
+	margin-top: 30px;
+}
+</style>
+
+</head>
+<body>
+	<nav>
+		<button class="square" OnClick="location.href='./index.html'">홈</button>
+		<button class="square" OnClick="location.href='./aboutme.html'">자기소개</button>
+		<button class="square" OnClick="location.href='./photo.html'">내사진</button>
+		<button class="square"
+			OnClick="location.href='http://localhost:8080/2019_2nd_intern/today'">몇시에요</button>
+	</nav>
+
+
+	<section>
+		<h1>NTS Internship SW개발 유승아</h1>
+		<p>
+			함께 개발하고 같이 성장하고 싶어요<br>인천광역시 서구 청라라임로 어딘가에 살고있어요!
+		</p>
+		<div class="boxbtn square" OnClick="location.href='./aboutme.html'">자기소개</div>
+		<div class="boxbtn square" OnClick="location.href='./photo.html'">내사진</div>
+
+		<div id="picture">
+			<img src="../resources/map.JPG" />
+		</div>
+	</section>
+
+	<footer>
+		yoo.seungah@nts-corp.com <br>http://github.com/seungahyoo
+	</footer>
+</body>
+</html>

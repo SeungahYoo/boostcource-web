@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About me 사진</title>
+
+<style type="text/css">
+body {
+	background-color: #E3DBD8;
+}
+
+section {
+	width: 1280px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: #A6A29E;
+	border-radius: 25px;
+	padding: 25px 0px;
+}
+
+nav {
+	width: 1280px;
+	margin: 3px auto;
+	padding: 25px 20px;
+	text-align: right;
+}
+
+footer {
+	width: 1280px;
+	margin: 10px auto;
+	background-color: #A6A29E;
+	border-radius: 25px;
+	padding: 10px 0px;
+	background-color: #A6A29E;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+}
+
+button {
+	height: 30px;
+	border: 2px solid #A6A29E;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 3px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.boxbtn {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #7E4D4E;
+	display: inline-block;
+	margin: 10px;
+	color: #A6A29E;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.square {
+	box-shadow: 5px 5px 5px grey;
+}
+
+.picture {
+	width: 150px;
+	height: 210px;
+	border: 2px solid black;
+	padding: 20px;
+	float: left;
+	margin-right: 40px;
+}
+
+.comment {
+	height: 210px;
+	width: 350px;
+	vertical-align: middle;
+	text-align: left;
+	float: left;
+}
+
+.element {
+	height: 250px;
+	width: 600px;
+	clear: both;
+	text-align: center;
+	margin: 60px auto;
+}
+</style>
+
+</head>
+<body>
+	<nav>
+		<button class="square" OnClick="location.href='./index.html'">홈</button>
+		<button class="square" OnClick="location.href='./aboutme.html'">자기소개</button>
+		<button class="square" OnClick="location.href='./photo.html'">내사진</button>
+		<button class="square"
+			OnClick="location.href='http://localhost:8080/2019_2nd_intern/today'">몇시에요</button>
+	</nav>
+
+
+	<section>
+
+		<div class="element">
+
+			<img class="picture" src="../resources/pic1.png" />
+			<div class="comment">
+				<b>2016.12.25</b><br> <br> 제가 BROWN 일 때 찍은 사진입니다. <br>
+				<br>무심한 듯 무뚝뚝해 보이는 브라운. 하지만 그는 늘 옆에 있어 주고 마음을 들어주는 친구입니다. 에너지
+				넘치는 코니를 사랑하고, 귀여운 초코의 든든한 오빠입니다.
+
+			</div>
+
+		</div>
+		<div class="element">
+			<img class="picture" src="../resources/pic2.png" />
+			<div class="comment">
+				<b>2017.12.25</b><br> <br> 제가 CONY 일 때 찍은 사진입니다.<br>
+				<br>열정과 에너지가 넘치는 생기발랄 코니. 사랑하는 브라운 앞에선 자신만의 톡톡 튀는 매력을 마음껏
+				보여줍니다.
+			</div>
+		</div>
+		<div class="element">
+			<img class="picture" src="../resources/pic3.png" />
+			<div class="comment">
+				<b>2018.12.25</b><br> <br> 제가 SALLY 일 때 찍은 사진입니다. <br>
+				<br>반전 매력을 가진 샐리. 작고 귀여운 샐리는 동에 번쩍, 서에 번쩍! 기발한 행동과 엉뚱한 생각으로
+				친구들에게 웃음과 즐거움을 주는 매력만점 친구입니다.
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		yoo.seungah@nts-corp.com <br>http://github.com/seungahyoo
+	</footer>
+</body>
+</html>
